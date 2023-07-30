@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #22212C;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+.conteiner-left {
+    display: flex;
+    gap: 20px;
+}
+
+
+aside {
+    margin: 20px;
+    flex-basis: 25%;
+}
+
+#box01 {
+    width: 350px;
+    height: 290px;  
+    border-radius: 20px;
+    margin-top: 20px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+    text-align: center;
+ 
+}
+
+#box01-name {
+    margin-top: 30px;
+    height:25px;
+    font-size: 23px;
+}
+
+#box01-job {
+    margin-top: 10px;
+    height:17px;
+    font-size: 17px;
+}
+
+img {
+    margin-top: 32px;
+}
+
+#box02 {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+    
+    
+}
+
+#social-media01, #social-media02, #social-media03 {
+    height: 30px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 20px;
+    align-items: center;
+    
+
+    
+}
+
+#social-media01 {
+    position: relative;
+    top:65px;
+}
+
+#social-media02 {
+    position: relative;
+    top: 130px;
+}
+
+#social-media03 {
+    position: relative;
+    top: 190px;
+}
+
+#box03 {
+    width: 350px;
+    height: 210px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+}
+
+#box-tech {
+    font-size: 20px;
+    width: 121px;
+    height: 26px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
+
+#box03-ul li {
+    font-size: 10px;
+    list-style: none;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CB92B1;
+    color: black;
+}
+
+#box03-li01 {
+    width: 86px;
+    height: 24px;
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    left: 30px;
+}
+#box03-li02 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: 6px;
+    
+}
+#box03-li03 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 232px;
+    top: -18px;
+}
+#box03-li04 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+#box03-li05 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: -24px;
+}
+#box03-li06 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 232px;
+    top: -48px;
+}
+#box03-li07 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    top: -30px;
+}
+#box03-li08 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: -54px;
+}
+#box03-li09 {
+    width: 86px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+    left: 232px;
+    top: -78px;
+}
+
+#box04 {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+}
+
+#box04-exp {
+    font-size: 20px;
+    width: 121px;
+    height: 26px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
+
+#box04-ul li {
+    list-style: none;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 30px;
+    
+}
+
+#box05 {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+}
+
+#box05-edu {
+    font-size: 20px;
+    width: 121px;
+    height: 26px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
+
+#box05-ul {
+    list-style: none;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 2;
+}
+
+#box06 {
+    width: 910px;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 40px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#box07 {
+    display: inline-block;
+    width: 910px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 34px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+}
+
+#box07-grad {
+    font-size: 20px;
+    width: 121px;
+    height: 26px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+    
+}
+
+#box07-ul {
+    list-style: none;
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 1.5;
+}
+
+#box08 {
+    width: 910px;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#box09 {
+    width: 910px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+}
+
+#box09-goalsjob01{
+    padding: 20px;
+
+}
+#box09-goalsjob02{
+    padding-left: 20px;
+}
+
+#box09-ul01 {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 40px;
+}
+
+#box09-goalsjob03 {
+    padding-left: 20px;
+}
+
+#box09-ul02 {
+    list-style-type: none;
+    list-style-position: inside;
+    margin-left: 40px;
+}
+
+#box09-goalsjob04 {
+    padding-left: 20px;
+}
+
+#box10 {
+    width: 910px;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#box11 {
+    display: inline-block;
+    width: 910px;
+    height: 180px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 34px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px white;
+}
+
+#box11-portifolio {
+    font-size: 20px;
+    width: 121px;
+    height: 26px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+    
+}
+
+#box11-ul {
+    list-style: none;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 30px;
+    line-height: 2;
+    
+
+}
+
+#box11-ul a {
+    color: black;
+}
